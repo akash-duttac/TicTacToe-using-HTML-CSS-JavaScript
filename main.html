@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav><ul>TicTacToe by Akash Duttachowdhury</ul></nav>
+    <form>
+    <div class="GamePlay">
+    <div class="GameInfo">
+        <h1>Let's Play!</h1>
+        <div>
+            <br><span class="turn">It's your turn, X</span>
+            <br><button id="reset">Reset</button>
+        </div>
+        <div class="winningImage">
+            <img src="Images/winningImage.gif" alt="">
+        </div>
+    </div>
+        <div class="container">
+            <div class="line"></div>
+            <div class="grid noTop noLeft"><span class = "inputTurn"></span></div>
+            <div class="grid noTop"><span class = "inputTurn"></span></div>
+            <div class="grid noTop noRight"><span class = "inputTurn"></span></div>
+            <div class="grid noLeft"><span class = "inputTurn"></span></div>
+            <div class="grid"><span class = "inputTurn"></span></div>
+            <div class="grid noRight"><span class = "inputTurn"></span></div>
+            <div class="grid noLeft noBottom"><span class = "inputTurn"></span></div>
+            <div class="grid noBottom"><span class = "inputTurn"></span></div>
+            <div class="grid noBottom noRight"><span class = "inputTurn"></span></div>
+        </div>
+    </div>
+    </form>
+<script src="index.js"></script>
+</body>
+</html>
